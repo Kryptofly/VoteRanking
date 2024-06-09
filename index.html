@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoteRanking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VoteRanking</h1>
+        <form id="option-form">
+            <input type="text" id="option-input" placeholder="Enter an option" required>
+            <button type="submit">Add Option</button>
+        </form>
+        <ul id="options-list"></ul>
+        <button id="generate-frame" class="hidden">Generate Warpcast Frame</button>
+        <div id="ranking-container" class="hidden">
+            <h2>Ranking Frame</h2>
+            <ul id="ranking-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
